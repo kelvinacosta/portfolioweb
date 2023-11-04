@@ -1,0 +1,80 @@
+.container{
+    background: linear-gradient(300deg, #427D9D, #9BBEC8, #DDF2FD);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+h1{
+    color: aliceblue;
+    font-family: 'Lobster', sans-serif;
+    font-size: 2.5rem;
+   
+    
+    
+    
+}
+.subtitle{
+    color: aliceblue;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+.techContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+h2{
+    
+    font-family: 'Lobster', sans-serif;
+    color:#164863;
+    font-size: 2.5rem;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    
+}
+
+p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    
+    color: #427D9D;
+    font-style:oblique;
+    
+
+    
+}
+/* .containerAbout{
+    display: flex;
+    text-align: center;
+    align-items: center;
+} */
+
+.myWriting{
+    font-family: 'Caveat', cursive;
+    font-size: 1.5rem;
+}
+.contactClass{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    background-color: #164863;
+}
